@@ -1,0 +1,30 @@
+.link-one{
+    color:#0806a3;
+  }
+  
+  .link-one:hover{
+    color: #0d6efd;
+  }
+  .link-two{
+    color:#fff;
+  }
+  
+  .link-two:hover{
+    color: #ffcb15;
+  }
+  .link-cta{
+    color:#0806a3;
+  }
+  
+  .link-cta:hover{
+    color:#0d6efd;
+  }
+  
+  .link-cta-disabled{
+    color:gray;
+    text-decoration: none;
+  }
+  .link-cta-disabled:hover{
+    color:gray;
+    text-decoration: underline;
+  }

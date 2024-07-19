@@ -1,0 +1,1 @@
+sass --trace --watch assets/styles/index.scss:dist/index.min.css --style compressed

@@ -1,0 +1,189 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Block Editor Bootstrap Blocks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-18 22:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: bootstrap"
+
+#: block-editor-bootstrap-blocks.php:773
+msgid "* default = what should be preselected when the editor loads"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:771
+msgid ""
+"* label = what you will see in the editor in breakpoint tabs - you should "
+"use standard ones xs, sm, md, lg, xl, xxl"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:772
+msgid "* prefix = what will be used in CSS .d-PREFIX-block, .col-PREFIX-6, ..."
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:675
+msgid ""
+"Add .container class on inner-container div in group block and cover block"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:680
+msgid "Automatically add .container class"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:691
+msgid "Automatically remove .is-layout-constrained class"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:669
+msgid "Block Editor enhancements"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:624
+msgid "Bootstrap source"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:722
+msgid ""
+"Changing prefixes and adding or removing rows will break all existing "
+"Bootstrap row blocks!"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:777
+msgid ""
+"Define the maximum width (it is including gutter) of `.container` for "
+"different screen sizes"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:721
+msgid ""
+"Define the minimum dimensions at which your layout will change, adapting to "
+"different screen sizes, for use in media queries"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Fully responsive Bootstrap 5 blocks, components and extends for Gutenberg"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:720
+msgid "Grid breakpoints"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:776
+msgid "Grid containers"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:814
+msgid "Grid gutter"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:815
+msgid ""
+"Gutters are the padding between your columns, used to responsively space and "
+"align content in the Bootstrap grid system"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:670
+msgid ""
+"If you used this plugin before these options appeared in here, then leave "
+"them checked, otherwise it can break your layouts!"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:629
+msgid ""
+"If your theme doesn't contain Bootstrap 5 css, then you need to load it from "
+"this plugin"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:640
+msgid ""
+"If your theme doesn't contain Bootstrap 5 js, then you need to load it from "
+"this plugin"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:651
+msgid ""
+"If your theme doesn't load Bootstrap 5 css in admin editor, then you need to "
+"load it from this plugin"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:828
+msgid "Imports"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:729
+msgid "label"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:656
+msgid "Load Bootstrap 5 css from this plugin in editor"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:634
+msgid "Load Bootstrap 5 css from this plugin in theme"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:645
+msgid "Load Bootstrap 5 js from this plugin in theme"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:829
+msgid ""
+"Make sure you optimize Bootstrap by only @importing the components you need"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:701
+msgid "Options"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:732 block-editor-bootstrap-blocks.php:784
+msgid "prefix"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:702
+msgid ""
+"Quickly modify global styling by enabling or disabling optional features"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:686
+msgid "Remove .is-layout-constrained class from fullwidth group block"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:849
+msgid "Reset settings and recompile"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:697
+msgid "Save"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:847
+msgid "Save and recompile"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:520
+msgid "Settings"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:603
+msgid "Settings saved."
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:735 block-editor-bootstrap-blocks.php:787
+msgid "size [px]"
+msgstr ""
+
+#: block-editor-bootstrap-blocks.php:722
+msgid ""
+"This should be set only on the very beginning before you start using "
+"Bootstrap row block in your posts."
+msgstr ""

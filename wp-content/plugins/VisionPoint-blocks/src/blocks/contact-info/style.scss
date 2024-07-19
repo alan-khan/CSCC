@@ -1,0 +1,62 @@
+.wp-block-blocks-contact-info.faculty-card {
+  border: 1px solid #b9b9b9;
+  border-radius: 0px;
+  background: transparent !important;
+  h4 {
+    color: black;
+    background: #eaeaea;
+    padding: 17px 14px;
+    margin: 0px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .faculty-card__contact {
+    padding: 14px;
+    background: transparent;
+
+    p {
+      color: #000;
+      margin-top: -8px;
+      font-family: "Open Sans" !important;
+      font-size: 16px;
+      text-decoration: none;
+      span {
+        text-decoration: underline;
+        color: #06038d;
+        font-family: "Open Sans" !important;
+        font-size: 16px;
+        line-height: 22px;
+        &:hover {
+          color: #004cce;
+        }
+      }
+      a {
+        text-decoration: underline;
+        color: #06038d;
+        font-family: "Open Sans" !important;
+        font-size: 16px;
+        line-height: 22px;
+        &:hover {
+          color: #004cce;
+        }
+      }
+    }
+
+    .c-heading {
+      margin-bottom: 5px;
+      display: block;
+      color: #000;
+      font-family: "Open Sans" !important;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      text-transform: uppercase;
+    }
+  }
+
+  .faculty-card__contact div:first-child a {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}

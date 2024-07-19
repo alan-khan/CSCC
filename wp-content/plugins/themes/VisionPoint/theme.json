@@ -1,0 +1,118 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version":2,
+    "settings": {
+        "layout": {
+            "contentSize": "720px",
+            "wideSize": "960px"
+        },
+        "shadow": {
+			"defaultPresets": false
+		},
+        "typography": {
+            "customFontSize": false,
+			"fontStyle": false,
+			"fontWeight": false,
+			"letterSpacing": false,
+			"lineHeight": false,
+			"textDecoration": false,
+			"textTransform": false,
+			"dropCap": false,
+			"fontSizes": []
+        },
+        "color": {
+            "defaultGradients" : false,
+            "defaultPalette"   : false, 
+			"palette": [
+				{
+					"slug"  : "primary",
+					"color" : "#06038D",
+					"name"  : "Primary"
+				},
+				{
+					"slug"  : "secondary",
+					"color" : "#78B3E0",
+					"name"  : "Aero"
+				},
+				{
+					"slug"  : "dark",
+					"color" : "#8C8F91",
+					"name"  : "Aluminium"
+				},
+				{
+					"slug"  : "warning",
+					"color" : "#FFCB15",
+					"name"  : "Yellow"
+				},
+				{
+					"slug"  : "black",
+					"color" : "#000000",
+					"name"  : "Black"
+				},
+                {
+                    "slug"  : "white",
+                    "color" : "#ffffff",
+                    "name"  : "White"
+                }
+			]
+		}
+    },
+	"styles": {
+		"elements": {
+			"heading" : {
+				"typography" : {
+					"fontWeight" : "600"
+				}
+			},
+			"h1" : {
+				"typography": {
+					"fontFamily": "Roboto Slab SemiBold",
+					"fontSize" : "3rem",
+					"lineHeight": "3.25rem"
+					
+				},
+				"color"	: {
+					"text" : "#06038D"
+				}
+			},
+			"h2" : {
+				"typography": {
+					"fontFamily": "Roboto Slab SemiBold",
+					"fontSize" : "2.625rem",
+					"lineHeight": "3.25rem"
+				},
+				"color"	: {
+					"text" : "#06038d"
+				}
+			},
+			"h3" : {
+				"typography": {
+					"fontFamily": "Roboto Slab SemiBold",
+					"fontSize" : "2.125rem",
+					"lineHeight": "2.625rem"
+				}
+			},
+			"h4" : {
+				"typography": {
+					"fontFamily": "Roboto Slab SemiBold",
+					"fontSize" : "1.5rem",
+					"lineHeight": "2rem"
+				},
+				"color"	: {
+					"text" : "#06038d"
+				}
+			}
+		},
+		"blocks": {
+			"core/paragraph": {
+				"typography": {
+					"fontSize": "1rem",
+					"lineHeight": "1.5rem"
+				},
+				"color": {
+					"text": "#080808"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+.wp-block-blocks-stander-inner{
+    background: #ededed;
+    padding: 10px 10px 15px 10px;
+    border-radius: 5px;
+    h2{
+        color: #06038D;
+        display: inline-block;
+        font-size: 42px;
+    }
+    a.cta-button{
+        float: right;
+        margin-top: 7px;
+        background: #070393;
+        text-decoration: none;
+        color: #fff;
+        transition: 0.5s;
+        width: auto;
+        padding: 6px 24px;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+    a.cta-button:hover{
+        background: #02005a;
+    }
+
+}
+.mb-50 {
+    margin-top: -77px;
+    position: relative;
+}
+
+
+
+@media only screen and (max-width: 764px) {
+
+    .mb-150 {
+        margin-top: -50px;
+        z-index: 9999999;
+        position: relative;
+        width: 80%!important;
+    }
+    .wp-block-blocks-stander-inner a.cta-button {
+        float: none;
+        margin-top: 7px;
+        background: #070393;
+        text-decoration: none;
+        color: #fff;
+        transition: 0.5s;
+        width: auto;
+        border-radius: 0px;
+        width: 100%;
+    }
+}

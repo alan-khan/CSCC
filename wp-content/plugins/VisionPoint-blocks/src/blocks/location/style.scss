@@ -1,0 +1,186 @@
+.wp-block-blocks-location {
+  background-color: #171494;
+  padding-top: 10px;
+  padding-bottom: 96px;
+  color: white !important;
+  .button1-class {
+    background: #78b3e0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid #78b3e0;
+    font-weight: bold;
+  }
+  img {
+    width: 100% !important;
+    height: 516px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .subHeading {
+    text-align: center;
+    h4 {
+      font-weight: 300 !important;
+      color: white !important;
+    }
+  }
+  .heading {
+    text-align: center;
+    padding-bottom: 35px;
+    h2 {
+      color: white !important;
+      font-weight: 600 !important;
+    }
+  }
+
+  .outer-div {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+  }
+
+  .carousel12 {
+    display: flex;
+    padding: 0px !important;
+    width: 65%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .inner-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    h5 {
+      color: white !important;
+      font-weight: 400 !important;
+      font-size: 19px;
+      margin-top: 10px;
+      a {
+        color: #fff;
+      }
+    }
+  }
+  .slide-data {
+    width: 100%;
+    display: none;
+  }
+
+  .slick-prev {
+    position: absolute;
+    left: -20px;
+    top: 33%;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-size: cover;
+    background-position: center;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid #898484;
+    text-indent: -9999px;
+    overflow: hidden;
+    transform: rotate(180deg);
+    background: white;
+    z-index: 999;
+  }
+
+  .slick-next {
+    position: absolute;
+    right: -20px;
+    top: 33%;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-size: cover;
+    background-position: center;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid #898484;
+    content: ">";
+    text-indent: -9999px;
+    overflow: hidden;
+    background: white;
+    z-index: 999;
+  }
+
+  .slick-next::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 50%;
+    left: 14px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-right: 4px solid #02005a;
+    border-top: 4px solid #02005a;
+  }
+
+  .slick-prev:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 15px;
+    top: 17px;
+    transform: translate(-50%, -50%) rotate(-135deg);
+    border-left: 4px solid #02005a;
+    border-bottom: 4px solid #02005a;
+  }
+
+  .slick-slide {
+    .slide-data {
+      padding-left: 2em;
+      display: block;
+      .button_div {
+        margin: 20px 0;
+      }
+    }
+    .slide_heaing {
+      padding-left: 2em;
+      width: 100%;
+      text-decoration: underline;
+      h5 {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wp-block-blocks-location {
+    padding-top: 50px;
+    h1 {
+      margin-bottom: 50px;
+    }
+    .carousel12 {
+      display: block;
+      padding: 0px !important;
+      width: 82%;
+      margin: 0 auto;
+      gap: 27px;
+      margin-bottom: 31px !important;
+      pointer-events: none;
+      .inner-div {
+        h5 {
+          margin-bottom: 50px;
+        }
+        img {
+          height: 250px;
+        }
+      }
+    }
+  }
+}

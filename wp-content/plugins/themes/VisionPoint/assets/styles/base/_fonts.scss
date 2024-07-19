@@ -1,0 +1,17 @@
+/**
+ Custom Fonts selection 
+*/
+
+$heading-font: "Roboto Slab SemiBold";
+$heading-font-regular : "Roboto Slab Regular";
+$body-font: 'Open Sans Medium';
+$body-font-bold: 'Open Sans Bold';
+
+
+//fonts 
+$fa-font-path: "../assets/styles/fonts/";
+
+@include fontface-include($heading-font, "RobotoSlab-SemiBold", $fa-font-path, 'normal', '600');
+@include fontface-include($heading-font-regular, "RobotoSlab-Regular", $fa-font-path, 'normal', '500');
+@include fontface-include($body-font, "OpenSans-Medium", $fa-font-path, 'normal', '500');
+@include fontface-include($body-font, "OpenSans-Bold", $fa-font-path, 'normal', '700');

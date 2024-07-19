@@ -1,0 +1,301 @@
+.wp-block-blocks-hero-block {
+  .col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+  background: #06038d;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  @media screen and (max-width: 768px) {
+    background-image: none !important;
+  }
+  img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+  .hero-content {
+    max-width: 432px;
+    padding: 75px 0;
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+    }
+    h3 {
+      font-family: "Permanent Marker" !important;
+      color: #fff;
+      font-size: 31px;
+      background: url(https://cscc.vpmdevtech.com/wp-content/uploads/2023/10/Dotted-Arrow.png)
+        no-repeat -10px center;
+      padding-top: 45px;
+      margin-left: -63px;
+      span {
+        margin-left: 60px;
+      }
+    }
+  }
+  h1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500 !important;
+    line-height: 90px;
+    padding-bottom: 20px;
+    background: url(https://cscc.vpmdevtech.com/wp-content/uploads/2023/10/underline.png)
+      no-repeat 0% 100%;
+  }
+
+  h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400 !important;
+  }
+
+  select {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: unset;
+    font-weight: 700;
+    border: none;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+  a {
+    background: #78b3e0;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    border-radius: 4px;
+  }
+  a:hover {
+    background: #5392c2;
+    color: #000;
+  }
+  .main-wrapper {
+    background-image: linear-gradient(#06038d, #030247);
+    padding: 30px 0;
+    text-align: center;
+    @media screen and (max-width: 996px) {
+      padding-bottom: 100px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      @media screen and (max-width: 996px) {
+        gap: 0;
+      }
+      a {
+        flex: 1;
+        @media screen and (max-width: 996px) {
+          flex: 1 0 50%;
+          box-sizing: border-box;
+          max-width: 50%;
+          padding: 6px;
+        }
+      }
+    }
+    a {
+      background: none !important;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+    .area {
+      background-color: #232c93;
+      padding: 10px 10px 10px 10px;
+      text-align: center;
+      border-radius: 5px;
+      border: 2px solid #232c93;
+      transition: 0.6s;
+
+      h4 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500 !important;
+        margin-top: 11px;
+      }
+      i {
+        color: #fff;
+        font-size: 70px;
+        margin-bottom: 15px;
+      }
+
+      img {
+        width: auto;
+        height: 69px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .area:hover {
+      border: 2px solid #7f88e5;
+      transition: 0.6s;
+    }
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  .wp-block-blocks-hero-block {
+    .main-wrapper {
+      .area {
+        background-color: #232c93;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        border-radius: 5px;
+        border: 2px solid #232c93;
+        transition: 0.6s;
+        h4 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500 !important;
+        }
+        i {
+          color: #fff;
+          font-size: 70px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1025px) {
+  .wp-block-blocks-hero-block {
+    .hero-content {
+      top: 55px;
+    }
+    .main-wrapper {
+      .area {
+        transition: 0.6s;
+        h4 {
+          color: #fff;
+          font-size: 16px !important ;
+          font-weight: 500 !important;
+        }
+        i {
+          color: #fff;
+          font-size: 70px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .wp-block-blocks-hero-block {
+    .hero-content {
+      h3 {
+        font-family: "Permanent Marker" !important;
+        color: #fff;
+        font-size: 31px;
+        background: url(https://cscc.vpmdevtech.com/wp-content/uploads/2023/10/Dotted-Arrow.png)
+          no-repeat -7px bottom;
+        padding-top: 65px;
+        margin-left: -62px;
+      }
+    }
+    .main-wrapper {
+      .area {
+        h4 {
+          font-size: 15px;
+          color: #fff;
+        }
+        img {
+          width: auto;
+          height: 40px;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 56px;
+      color: #fff;
+      font-weight: 600 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wp-block-blocks-hero-block {
+    .hero-content {
+      h3 {
+        padding-top: 0px;
+        margin-left: 0px;
+        background: none;
+        span {
+          margin-left: 0px;
+        }
+      }
+    }
+    h1 {
+      font-size: 43px;
+      color: #fff;
+      font-weight: 400 !important;
+      line-height: 53px;
+      background: url(https://cscc.vpmdevtech.com/wp-content/uploads/2023/10/underline.png)
+        no-repeat 0% 100%;
+      background-size: 220px;
+    }
+
+    select {
+      display: block;
+      margin-top: 50px;
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    a {
+      background: #78b3e0;
+      padding: 10px 0px;
+      margin-top: 10px;
+      display: inline-block;
+      color: #000;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 5px;
+      width: 100%;
+      text-align: center;
+    }
+    .main-wrapper {
+      h4 {
+        font-size: 12px !important;
+      }
+      .area {
+        margin: 5px 0px;
+        height: 105px;
+        width: 100% !important;
+        img {
+          display: block;
+        }
+      }
+      .area i {
+        color: #fff;
+        font-size: 46px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

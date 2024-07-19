@@ -1,0 +1,88 @@
+.wp-block-blocks-cta {
+  padding: 41px 0px 41px 0px !important;
+  position: relative;
+
+  h2 {
+    color: white;
+    line-height: 45px;
+  }
+  p {
+    color: white;
+    font-size: 18px;
+  }
+  .button1-class {
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid #78b3e0;
+
+    text-transform: uppercase;
+  }
+  .button1-class:hover {
+  }
+
+  .button2-class {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid white;
+
+    text-transform: uppercase;
+  }
+  .button2-class:hover {
+    background: #fff;
+    color: #000;
+  }
+  .part-1 {
+    margin-top: 20px;
+  }
+  .part-2 {
+    margin-top: 75px;
+    text-align: center;
+  }
+  .main-wrapper {
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .part-1 {
+      text-align: left;
+      margin: 0px;
+    }
+    .part-2 {
+      text-align: left;
+      margin-top: 22px;
+    }
+    .main-wrapper {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .part-1 {
+      text-align: left;
+      margin: 0px;
+    }
+    .part-2 {
+      text-align: left;
+      margin-top: 22px;
+    }
+    .main-wrapper {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .part-1,
+    .part-2 {
+      text-align: left;
+      margin: 0px;
+    }
+    .main-wrapper {
+      width: 100%;
+    }
+  }
+}

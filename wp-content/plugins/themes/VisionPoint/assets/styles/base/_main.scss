@@ -1,0 +1,27 @@
+/*
+* Global Settings throughout the site
+*/
+html,body{
+    position: relative;
+}
+
+//Home Page Only for header
+.home{
+    header{
+        position: relative;
+        z-index: 9999999999;
+         @include media-breakpoint-up(xl){
+            margin-bottom: -125px;
+         }
+    }
+}
+
+.admin-bar .scrolled {
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+

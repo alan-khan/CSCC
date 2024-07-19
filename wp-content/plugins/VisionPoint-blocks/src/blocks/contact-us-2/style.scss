@@ -1,0 +1,53 @@
+.wp-block-blocks-contact-us-2 {
+  padding: 50px 0px;
+  position: relative;
+  .main-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+
+    .gform_description {
+      padding-bottom: 25px;
+    }
+  }
+  .bg-color {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 24px 24px;
+    a {
+      font-weight: 400;
+    }
+  }
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  h6 {
+    padding-top: 15px;
+    color: #000;
+    font-size: 18px;
+  }
+  a {
+    display: block;
+    font-weight: 600;
+    padding-bottom: 12px;
+    &.contact-us-2-block-email {
+      font-weight: normal;
+    }
+  }
+  a:hover {
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .wp-block-blocks-contact-us-2 {
+    .main-wrapper {
+      width: 97%;
+      margin: 0 auto;
+      align-items: center;
+    }
+    .row > * {
+      padding-bottom: 29px;
+    }
+  }
+}

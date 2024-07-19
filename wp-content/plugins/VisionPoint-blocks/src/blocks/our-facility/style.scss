@@ -1,0 +1,131 @@
+$arrow-size: 1em;
+$arrow-border: 0.2em;
+
+.our-facilities-section {
+  background: #06038d;
+  padding: 160px 0;
+  position: relative;
+  label {
+    color: #fff;
+  }
+  button {
+    color: #fff;
+  }
+  h5 {
+    color: #fff;
+  }
+  .editor-post-featured-image__toggle {
+    background: transparent;
+    img {
+      position: relative;
+      width: 100%;
+      left: 0%;
+      transform: translate(-58%, -36%);
+    }
+  }
+  .super-heading {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 8px;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    left: 50%;
+    transform: translate(0, -50%);
+    top: 50%;
+    border-radius: 10px 0 0 10px;
+
+    @media only screen and (max-width: 992px) {
+      max-width: 45%;
+      left: 55%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      position: initial;
+      transform: none;
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+
+    @media only screen and (max-width: 575px) {
+      border-radius: 10px 0 0 10px;
+      margin: 30px 0 30px 0;
+      max-width: calc(100% + 12px);
+    }
+  }
+
+  .our-facilities-list-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    label {
+      color: #fff;
+    }
+
+    li {
+      margin-bottom: 28px;
+
+      @media only screen and (max-width: 768px) {
+        text-align: center;
+      }
+
+      a {
+        color: #fff;
+        font-size: 18px;
+        font-family: "Roboto Slab", serif;
+        position: relative;
+
+        &:after,
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+        }
+
+        &:before {
+          top: 58%;
+          right: -1em;
+          width: 0.75em;
+          height: 0.75em;
+          transform-origin: 50% 50%;
+          transform: translate(0, -($arrow-size / 2)) rotate(45deg);
+          box-shadow: inset -#{$arrow-border} $arrow-border 0 0 #fff;
+          border-radius: 0 $arrow-size * 0.15 0 0;
+        }
+
+        &:after {
+          top: 50%;
+          right: -46px;
+          width: 41px;
+          height: $arrow-border;
+          transform: translate(0, -($arrow-border / 2));
+          background-color: transparent;
+        }
+
+        &:hover,
+        &:focus,
+        &:focus-within {
+          color: #ffcb15;
+
+          &:before {
+            right: -46px;
+            box-shadow: inset -#{$arrow-border} $arrow-border 0 0 #ffcb15;
+          }
+
+          &:after {
+            background-color: #ffcb15;
+            right: -46px;
+          }
+        }
+      }
+    }
+  }
+}

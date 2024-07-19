@@ -1,0 +1,208 @@
+.wp-block-blocks-social {
+  ul {
+    padding-left: 0px;
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+      a {
+        width: 36px;
+        height: 36px;
+        max-width: 36px;
+        color: #fff !important;
+        background: #06038d;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid #00355f;
+      }
+    }
+  }
+}
+
+// For Initial load back end
+.main-social {
+  ul {
+    padding-left: 0px;
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+      a {
+        width: 36px;
+        height: 36px;
+        max-width: 36px;
+        color: #fff !important;
+        background: #06038d;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid #00355f;
+      }
+    }
+  }
+}
+
+// For Horizontal Front End
+.main-social.horizontal {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+    li {
+      list-style: none;
+      display: inline;
+      a {
+        width: 36px;
+        height: 36px;
+        max-width: 36px;
+        color: #fff !important;
+        background: #06038d;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid #00355f;
+      }
+    }
+  }
+}
+// For horizontal Backend End
+.main-social.horizontal {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+    li {
+      list-style: none;
+      a {
+        width: 36px;
+        height: 36px;
+        max-width: 36px;
+        color: #fff !important;
+        background: #06038d;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid #00355f;
+      }
+    }
+  }
+}
+
+// For Verticle Front End
+.main-social.verticle {
+  ul {
+    padding-left: 0px;
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+      a {
+        width: 36px;
+        height: 36px;
+        max-width: 36px;
+        color: #fff !important;
+        background: #06038d;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid #00355f;
+      }
+    }
+  }
+}
+// For Verticle Back End
+
+.main-social.verticle {
+  ul {
+    padding-left: 0px;
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+      a {
+        width: 36px;
+        height: 36px;
+        max-width: 36px;
+        color: #fff !important;
+        background: #06038d;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid #00355f;
+        span {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .main-social {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 0px;
+      li {
+        list-style: none;
+        a {
+          width: 36px;
+          height: 36px;
+          max-width: 36px;
+          color: #fff !important;
+          background: #06038d;
+          margin: 0 2px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          border-radius: 100%;
+          border: 1px solid #00355f;
+        }
+      }
+    }
+  }
+  .main-social.horizontal {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 0px;
+      li {
+        list-style: none;
+        a {
+          width: 36px;
+          height: 36px;
+          max-width: 36px;
+          color: #fff !important;
+          background: #06038d;
+          margin: 0 2px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          border-radius: 100%;
+          border: 1px solid #00355f;
+        }
+      }
+    }
+  }
+}

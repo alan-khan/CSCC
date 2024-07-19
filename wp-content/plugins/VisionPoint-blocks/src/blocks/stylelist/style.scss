@@ -1,0 +1,36 @@
+.styled-order-list {
+  padding-left: 4rem;
+  li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  li:before {
+    content: counter(item);
+    position: absolute;
+    left: -32px;
+    top: 14px;
+    transform: translateY(-50%);
+    background: #06038d;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding: 5px 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .styled-order-list {
+    li {
+    }
+    li:before {
+      top: 17px;
+    }
+  }
+}
